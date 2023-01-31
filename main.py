@@ -136,5 +136,4 @@ frank = np.array([20, 2])  # 155 pounds (63.4 кг), 68 inches (173 см)
 print("Эмили: %.3f" % network.feedforward(emily)) # 0.951 - Ж
 print("Фрэнк: %.3f" % network.feedforward(frank)) # 0.039 - М
 
-dasha = np.array([-3, -5]) # 128 фунтов (52.35 кг), 63 дюйма (160 см)
 print("Даша: %.3f" % network.feedforward(dasha)) # 0.039 - М
